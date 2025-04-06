@@ -1,0 +1,46 @@
+@font-face {
+    font-family: viking-font;
+    src: url(/Norse-Bold.otf);
+}
+body{
+    display: flex;
+    height: 100vh;
+    margin:0;
+}
+.left_side{
+    flex: 1;
+    background: url("halie-west-25xggax4bSA-unsplash.jpg") center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left_side p{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    opacity: 0.9;
+    text-align: center;
+}
+.transparent{
+    padding: 10px 0px;
+    background-color: rgba(0,0,0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+}
+.transparent img{
+    height: auto;
+    width: 6rem;
+}
+.transparent h1{
+    font-family: viking-font;
+    color:white;
+    font-size: 6rem;
+    margin: 0px;
+}
+.right_side{
+    flex:2;
+}
