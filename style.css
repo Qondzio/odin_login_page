@@ -49,4 +49,23 @@ a:visited{
 }
 .right_side{
     flex:2;
+    background-color:#f9fafb;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.right_side h2{
+    max-width: 70%;
+    font-family: Roboto;
+    font-weight: 500;
+    text-align: left;
+}
+.main_side{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 3px 10px rgb(197, 197, 197);
+}
+span{
+    display: block;
 }
