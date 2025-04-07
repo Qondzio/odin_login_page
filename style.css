@@ -62,14 +62,53 @@ a:visited{
     text-align: left;
 }
 .main_side{
-    width: 100%;
+    margin: -50px;
+    padding: 20px 50px 50px 50px;
     background-color: white;
     box-shadow: 0px 3px 10px rgb(197, 197, 197);
+}
+.main_side h2{
+    margin:0;
+    padding-bottom: 30px;
+}
+fieldset{
+    border: 0;
+    padding: 0;
 }
 .input_row{
     display: flex;
     gap: 100px;
 }
-label, input {
+label{
     display: block;
+    font-family:arial;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+input{
+    display: block;
+    margin-bottom: 20px;
+    height: 25px;
+    font-size: 16px;
+}
+.bottom_side button{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Roboto;
+    background-color: #596D48;
+    border: 0;
+    padding: 15px 60px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.bottom_side p{
+    font-family: Roboto;
+}
+.bottom_side a{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
 }
