@@ -29,12 +29,12 @@
                 <div class="input_row">
                     <span>
                         <label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name" name="first_name" size=30>
+                        <input type="text" id="first_name" name="first_name" size=30 pattern="[A-Za-z\s]+">
                     </span>
                     
                     <span>
                         <label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name" name="last_name" size=30>
+                        <input type="text" id="last_name" name="last_name" size=30 pattern="[A-Za-z\s]+">
                     </span>
                 </div>
                 <div class="input_row">
@@ -44,8 +44,8 @@
                     </span>
 
                     <span>
-                        <label for="phone_number">PHONE NUMBER</label>
-                        <input type="tel" id="phone_number" name="phone_number" size=30>
+                        <label for="phone_number">PHONE NUMBER (US number without '-')</label>
+                        <input type="tel" id="phone_number" name="phone_number" size=30 pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
                     </span>
                 </div>
                 <div class="input_row">
